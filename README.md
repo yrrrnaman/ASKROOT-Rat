@@ -1,4 +1,6 @@
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/7573dd5c-3b76-4930-aa56-e508a1faf244" />
+<img width="705" height="504" alt="image" src="https://github.com/user-attachments/assets/dbe2a5bb-d3ab-40c6-9939-b04bb0976898" />
+
 # AskRoot
 
 One command. Complete control.
