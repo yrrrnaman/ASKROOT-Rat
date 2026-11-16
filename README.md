@@ -1,3 +1,4 @@
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/7573dd5c-3b76-4930-aa56-e508a1faf244" />
 # AskRoot
 
 One command. Complete control.
@@ -24,6 +25,23 @@ Login: `admin@askroot.io` / `askroot-demo`
     device-agent/ outbound-only agent
     docker/       nginx edge
     database/     migrations
+
+
+    AskRoot/
+    ├── frontend/ │   ├── src/{components,pages,layouts,hooks,services,lib}
+    │   ├── index.html · vite.config.ts · tailwind.config.ts · package.json
+    ├── backend/
+    │   ├── src/main/java/com/askroot/{config,controller,service,repository,entity,dto,security,websocket,device,terminal,filemanager,monitoring,audit,exception}
+    │   ├── src/main/resources/{application.yml,db/migration}
+    │   ├── src/test/java/com/askroot
+    │   └── pom.xml · Dockerfile
+    ├── device-agent/
+    │   ├── src/main/java/com/askroot/agent/{enroll,runtime,exec,transfer,transport}
+    │   └── pom.xml · Dockerfile
+    ├── database/migrations/  → symlinked into backend resources
+    ├── docker/{nginx.conf,postgres-init.sql}
+    ├── .github/workflows/ci.yml
+    ├── docker-compose.yml · .env.example · README.md · LICENSE · .gitignore
 
 ## Security
 
